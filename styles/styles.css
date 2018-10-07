@@ -1,0 +1,116 @@
+body {
+    background-color: #d4d4d4;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+   }
+
+header {
+    width: 900px;
+    height: 315px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-color: #696969;
+    text-align: center;
+}
+
+main {
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    text-align: left;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 36px;
+    padding-top: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 15px auto;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 16px;
+    margin: 10px auto;
+}
+
+header p {
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+header img {
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contacts, .contacts2 {
+    text-align: left;
+    color: #ffffff;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 140px;
+}
+
+.contacts2 {
+    margin-left: 40px;
+}
+
+.contacts li {
+    padding-bottom: 7px;
+}
+
+.contacts2 li {
+    padding-bottom: 7px;
+}
+
+.left, .right {
+    display: inline-block;
+    width: 45%;
+    margin: 20px;
+    vertical-align: top;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+section ul li {
+    padding-bottom: 5px;
+}
+
+.contacts li:first-child {
+    list-style-image: url('../images/icons_phone.png');
+}
+
+.contacts li:nth-child(2) {
+    list-style-image: url('../images/adress.png');
+}
+
+.contacts2 li:first-child {
+    list-style-image: url('../images/web.png');
+}
+
+.contacts2 li:nth-child(2) {
+    list-style-image: url('../images/email.png');
+}
