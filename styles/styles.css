@@ -1,20 +1,60 @@
 body {
-    background-color: grey;
+    background-color: #d4d4d4;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
    }
 
 header {
-    width: 850px;
+    width: 900px;
+    height: 315px;
     margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
-    background-color: #d4d4d4;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-color: #696969;
     text-align: center;
 }
 
 main {
-    width: 850px;
+    width: 900px;
     margin: 0 auto;
     margin-bottom: 50px;
     background-color: #ffffff;
     text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 36px;
+    padding-top: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+header img {
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contacts {
+    text-align: left;
+    color: #ffffff;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 140px;
+}
+
+.contacts li {
+    padding-bottom: 7px;
 }
